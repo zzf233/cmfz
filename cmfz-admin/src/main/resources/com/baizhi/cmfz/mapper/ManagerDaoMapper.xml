@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "../mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.cmfz.dao.ManagerDao">
+
+    <resultMap id="ManagerResultMap" type="Manager">
+        <id property="managerId" column="manager_id" />
+        <result property="managerName" column="manager_name" />
+        <result property="managerPassword" column="manager_password" />
+        <result property="managerSalt" column="manager_salt" />
+        <result property="managerStatus" column="manager_status" />
+    </resultMap>
+    <select id="findManagerByName" resultMap="ManagerResultMap">
+        select * from t_manager where manager_name = #{managerName}
+    </select>
+</mapper>
