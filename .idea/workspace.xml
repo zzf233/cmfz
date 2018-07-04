@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859028dc-b3f1-47e7-a92c-b6ec80112e12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/captcha.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/common.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/dialog_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/file_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/folder_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/header_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/input.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/list.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/loading_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/login_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/img/main.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/controller/ManagerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/dao/ManagerDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/entity/Manager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/ManagerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/impl/ManagerServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/util/GetValidateCodeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/util/RandomSaltUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/applicationContext-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/com/baizhi/cmfz/mapper/ManagerDaoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/script/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/script/input.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/script/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/script/jquery.tools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/script/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/script/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/login/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/test/java/PasswordTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/test/java/com/baizhi/test/ManagerServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_admin_war_exploded.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_admin_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_rest_war_exploded.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_rest_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/misc.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/cmfz-admin.iml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/cmfz-admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-rest/cmfz-rest.iml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-rest/cmfz-rest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz.iml" afterPath="$PROJECT_DIR$/../cmfz/cmfz.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/pom.xml" afterPath="$PROJECT_DIR$/../cmfz/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmfz/out/" />
     <ignored path="$PROJECT_DIR$/../cmfz/target/" />
@@ -1099,7 +1042,7 @@
       <updated>1530681794086</updated>
       <workItem from="1530681796111" duration="16248000" />
       <workItem from="1530701223469" duration="1047000" />
-      <workItem from="1530704948458" duration="13184000" />
+      <workItem from="1530704948458" duration="13481000" />
     </task>
     <task id="LOCAL-00001" summary="初始化持明法州项目的基础结构">
       <created>1530682809813</created>
@@ -1108,7 +1051,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530682809813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化持明法州项目的基础结构，并实现登陆操作">
+      <created>1530718196149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530718196149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1144,7 +1094,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30479000" />
+    <option name="totallyTimeSpent" value="30776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -1186,7 +1136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化持明法州项目的基础结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化持明法州项目的基础结构" />
+    <MESSAGE value="初始化持明法州项目的基础结构，并实现登陆操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化持明法州项目的基础结构，并实现登陆操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
