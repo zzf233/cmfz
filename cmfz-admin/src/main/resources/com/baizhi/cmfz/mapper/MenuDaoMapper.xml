@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "../mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.cmfz.dao.MenuDao">
+
+    <resultMap type="Menu" id="MenuResultMap">
+        <id column="menu_id" property="menuId"/>
+        <result column="menu_name" property="menuName"/>
+        <result column="menu_code" property="menuCode"/>
+        <result column="menu_icon" property="menuIcon"/>
+        <result column="menu_url" property="menuUrl"/>
+        <result column="menu_level" property="menuLevel"/>
+        <result column="menu_parent_id" property="menuParentId"/>
+        <collection property="childMenus" ofType="Menu">
+            <id column="menu_id1" property="menuId"/>
+            <result column="menu_name1" property="menuName"/>
+            <result column="menu_code1" property="menuCode"/>
+            <result column="menu_icon1" property="menuIcon"/>
+            <result column="menu_url1" property="menuUrl"/>
+            <result column="menu_level1" property="menuLevel"/>
+            <result column="menu_parent_id1" property="menuParentId"/>
+        </collection>
+    </resultMap>
+    <select id="findAllMenu" resultMap="MenuResultMap">
+        select t1.* , t2.menu_id menu_id1 , t2.menu_name menu_name1 , t2.menu_code menu_code1 , t2.menu_icon menu_icon1 , t2.menu_url menu_url1 , t2.menu_level menu_level1 , t2.menu_parent_id menu_parent_id1
+        from t_menu t1 left join t_menu t2
+        on t1.menu_id = t2.menu_parent_id
+        where t1.menu_level = 1
+    </select>
+</mapper>

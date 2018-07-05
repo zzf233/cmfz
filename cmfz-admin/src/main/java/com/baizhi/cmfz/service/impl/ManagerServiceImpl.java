@@ -30,6 +30,7 @@ public class ManagerServiceImpl implements ManagerService{
      * @Exception   无
      */
     @Override
+    @Transactional(propagation=Propagation.SUPPORTS , readOnly = true)
     public Manager queryManagerByNameAndPassword(String managerName, String managerPassword) {
         Manager manager = managerDao.findManagerByName(managerName);
         if (manager != null && manager.getManagerPassword().equals(DigestUtils.sha256Hex(managerPassword + manager.getManagerSalt()))){

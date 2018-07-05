@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.net.URLEncoder;
 
@@ -31,13 +30,25 @@ public class ManagerController {
     /**
      * @Description 登陆跳转
      * @Author      赵云溪
-     * @Time        2018年7月4日 123点26分
+     * @Time        2018年7月4日 23点26分
      * @Param       无
      * @Exception   无
      */
     @RequestMapping("/toLogin")
     public String toLogin(){
         return "login/login";
+    }
+
+    /**
+     * @Description 跳转到主页面
+     * @Author      赵云溪
+     * @Time        2018年7月5日 10点11分
+     * @Param       无
+     * @Exception   无
+     */
+    @RequestMapping("/toMain")
+    public String toMain(){
+        return "main/main";
     }
 
     /**
@@ -66,7 +77,7 @@ public class ManagerController {
                     response.addCookie(cookiePassword);
                 }
                 model.addAttribute("manager" , manager);
-                return "login/success";
+                return "redirect:/manager/toMain";
             }
         }
         return "redirect:/manager/toLogin";
