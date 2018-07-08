@@ -8,9 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by zzf_PC on 2018/7/5.
@@ -30,5 +28,12 @@ public class PictureServiceImpl implements PictureService{
         map.put("total" , count);
         map.put("rows" , pictures);
         return map;
+    }
+
+    @Override
+    public void addPicture(Picture picture) {
+        picture.setPictureId(UUID.randomUUID().toString().replace("-" , ""));
+        picture.setPictureDate(new Date());
+        pictureDao.insertPicture(picture);
     }
 }

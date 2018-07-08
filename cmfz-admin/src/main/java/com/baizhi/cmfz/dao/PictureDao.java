@@ -11,4 +11,8 @@ import java.util.List;
 public interface PictureDao {
     public List<Picture> findAllPictureByPage(@Param("begin") Integer begin , @Param("end") Integer end);
     public int count();
+
+    public void insertPicture(Picture picture);
+
+    //public void updatePicture(Picture picture);
 }

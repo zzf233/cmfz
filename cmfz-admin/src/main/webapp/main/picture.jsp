@@ -1,54 +1,57 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: zzf_PC
-  Date: 2018/7/5
-  Time: 20:45
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@ page isELIgnored="false" %>
-
-<script type="text/javascript" >
-
-
-
-    $(function(){
-
-        $('#dg').datagrid({
-            url:"${pageContext.request.contextPath}/picture/queryAll",
-            columns:[[
-                {field:'pictureId',title:'标识编号',width:300,sortable:true},//列属性设置
-                {field:'picturePath',title:'文件名',width:100},
-                {field:'pictureDate',title:'轮播图创建时间',width:200},
-                {field:'pictureDescription',title:'描述信息',width:100},
-                {field:'pictureStatus',title:'轮播图状态',width:100},
-            ]],
-
-            toolbar:"#tb",
-            striped:true,
-            nowrap:true,
-            pagination:true,//显示分页工具栏
-            pageList:[2,4,6,8],
-            pageSize : 4,
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
+    <title>datagride_view</title>
+    <script type="text/javascript" src="../js/datagrid-detailview.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $('#picManager').datagrid({
+            title:'轮播图管理页',
+            remoteSort:false,
             singleSelect:true,
+            nowrap:false,
+            fitColumns:true,
+            toolbar:"#picTb",
+            pagination : true,
+            pageList : [ 1, 3, 5, 7, 10 ],
+            pageSize:5,
+                url:'${pageContext.request.contextPath}/picture/queryAll',
+            columns:[[
+                {field:'pictureId',title:'id-图片编号',width:120,align:'center'},
+                {field:'picturePath',title:'address-存储地址',width:100,align:'center',sortable:true},
+                {field:'pictureDate',title:'date-存储日期',width:80,align:'center',sortable:true},
+                {field:'pictureDescription',title:'describe-详细描述',width:100,align:'center',sortable:true},
+                {field:'pictureStatus',title:'Status-上线状态',width:60,align:'center'},
+                {field:"operation",title:"操作",formatter:function(value,row,index){ // 格式化展示数据到对应的列
+                    return "<a href='${pageContext.request.contextPath}/picture/toModify?pictureId="  + "row.pictureId" + "'>修改</a>";
+                }},
+            ]],
+            view: detailview,
+            detailFormatter: function(rowIndex, rowData){
+                return "<table><tr><td rowspan=2 style='border:0'><img style='height:400px; width:1200px;' src='/upload/"+ rowData.picturePath +"' /></tr></td></table>";
+            }
         });
 
+        $("#addPic").linkbutton({
+            onClick:function(){
+                $("#adPic").dialog({
+                    width:300,
+                    height:251,
+                    href:"${pageContext.request.contextPath}/main/addPicture.jsp", //包含子页面
+                });
+            }
+        });
+    });
+    </script>
 
-    })
-</script>
-    <table id="dg"></table>
 
-<%--    <div id="dd"></div>
+    <table id="picManager"></table>
+    <div id="adPic"></div>
 
-    <div id="ad"></div>--%>
 
-<div id="tb" style="display: none">
-    <a id="adda" href="#" class="easyui-linkbutton"
-       data-options="iconCls:'icon-add',plain:true,text:'新增轮播图'"></a>
-</div>
-<%--
-<a id="mod" href="#" class="easyui-linkbutton"
-   data-options="iconCls:'icon-edit',plain:true,text:'修改'"></a>
+    <div id="picTb" style="display: none">
+        <a id="addPic" href="#" class="easyui-linkbutton"
+           data-options="iconCls:'icon-add',plain:true,text:'新增轮播图'"></a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-help',plain:true"/>
+    </div>
 
-<a id="dele" href="#" class="easyui-linkbutton"
-   data-options="iconCls:'icon-cancel',plain:true,text:'删除'"></a>--%>
+
+

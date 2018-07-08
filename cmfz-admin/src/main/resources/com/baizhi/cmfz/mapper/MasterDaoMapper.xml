@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "../mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.cmfz.dao.MasterDao">
+
+    <resultMap id="MasterResultMap" type="Master">
+        <id property="masterId" column="master_id" />
+        <result property="masterName" column="master_name" />
+        <result property="masterPhoto" column="master_photo" />
+        <result property="masterSummar" column="master_summar" />
+    </resultMap>
+    <select id="findAllMasterByPage" resultMap="MasterResultMap">
+        select * from t_master limit #{begin} , #{end}
+    </select>
+    <select id="count" resultType="java.lang.Integer">
+        select count(*) from t_master
+    </select>
+    <insert id="insertMaster">
+        insert into t_master values(#{masterId} , #{masterName} , #{masterPhoto} , #{masterSummar})
+    </insert>
+
+    <select id="findAllMasterByFuzzy" resultMap="MasterResultMap">
+        select t.* from(
+        SELECT * from t_master WHERE ${condition} like '%${value}%'
+        ) t LIMIT ${begin},${end}
+    </select>
+    <select id="countFuzzy" resultType="java.lang.Integer">
+        select count(*) from(
+        SELECT * from t_master WHERE ${condition} like '%${value}%'
+        ) t
+    </select>
+
+    <insert id="insertBatch">
+        insert into t_master
+        values
+        <foreach collection="list" separator="," item="master">
+            (#{master.masterId} , #{master.masterName} , #{master.masterPhoto} , #{master.masterSummar})
+        </foreach>
+    </insert>
+    <select id="findAllMaster" resultMap="MasterResultMap">
+        select * from t_master
+    </select>
+</mapper>
