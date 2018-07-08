@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859028dc-b3f1-47e7-a92c-b6ec80112e12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__cn_afterturn_easypoi_annotation_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__cn_afterturn_easypoi_base_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__cn_afterturn_easypoi_web_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/controller/MasterController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/dao/MasterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/entity/Master.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/MasterService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/impl/MasterServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/com/baizhi/cmfz/mapper/MasterDaoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/addBatch.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/addMaster.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/addPicture.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/master.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/image/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/image/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/image/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/image/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/image/5.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_admin_war.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_admin_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_admin_war_exploded.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_admin_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_rest_war_exploded.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/artifacts/cmfz_rest_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cmfz/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/cmfz-admin.iml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/cmfz-admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/pom.xml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/controller/PictureController.java" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/controller/PictureController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/dao/PictureDao.java" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/dao/PictureDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/entity/Picture.java" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/entity/Picture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/PictureService.java" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/PictureService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/impl/PictureServiceImpl.java" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/java/com/baizhi/cmfz/service/impl/PictureServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/com/baizhi/cmfz/mapper/PictureDaoMapper.xml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/resources/com/baizhi/cmfz/mapper/PictureDaoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/main.jsp" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/picture.jsp" afterPath="$PROJECT_DIR$/../cmfz/cmfz-admin/src/main/webapp/main/picture.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz-rest/cmfz-rest.iml" afterPath="$PROJECT_DIR$/../cmfz/cmfz-rest/cmfz-rest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/cmfz.iml" afterPath="$PROJECT_DIR$/../cmfz/cmfz.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cmfz/pom.xml" afterPath="$PROJECT_DIR$/../cmfz/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmfz/out/" />
     <ignored path="$PROJECT_DIR$/../cmfz/target/" />
@@ -66,7 +20,7 @@
     <favorites_list name="cmfz" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -365,8 +319,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -973,7 +927,8 @@
       <workItem from="1530863903081" duration="6188000" />
       <workItem from="1530946421719" duration="1743000" />
       <workItem from="1531011947361" duration="19374000" />
-      <workItem from="1531060184774" duration="1898000" />
+      <workItem from="1531060184774" duration="1990000" />
+      <workItem from="1531062332820" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="初始化持明法州项目的基础结构">
       <created>1530682809813</created>
@@ -1003,7 +958,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530804377401</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="初始化持明法州项目的基础结构，并实现登陆,轮播图,上师表管理">
+      <created>1531062124636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531062124636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1039,25 +1001,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110863000" />
+    <option name="totallyTimeSpent" value="111086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38702202" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05561993" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05561993" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23497854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1070,6 +1031,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1084,7 +1046,8 @@
     <MESSAGE value="初始化持明法州项目的基础结构" />
     <MESSAGE value="初始化持明法州项目的基础结构，并实现登陆操作" />
     <MESSAGE value="初始化持明法州项目的基础结构，并实现登陆和轮播图" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化持明法州项目的基础结构，并实现登陆和轮播图" />
+    <MESSAGE value="初始化持明法州项目的基础结构，并实现登陆,轮播图,上师表管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化持明法州项目的基础结构，并实现登陆,轮播图,上师表管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1220,7 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="14" column="112" lean-forward="false" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,11 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1920">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <marker date="1487072666000" expanded="true" signature="1473:1486" ph="..." />
-            <marker date="1487072666000" expanded="true" signature="4056:4115" ph="..." />
-            <marker date="1487072666000" expanded="true" signature="8214:8225" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1268,7 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="31" column="86" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,9 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-739">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1530867838014" expanded="true" signature="1575:1593" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1324,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,10 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1018">
           <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <marker date="1531055477212" expanded="true" signature="1561:1569" ph="..." />
-            <marker date="1531055477212" expanded="true" signature="1583:1610" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1357,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,7 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,7 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,7 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1397,12 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding>
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,7 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,9 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,10 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-          <folding>
-            <marker date="1531061960457" expanded="true" signature="1438:1446" ph="..." />
-            <marker date="1531061960457" expanded="true" signature="1460:1487" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
