@@ -20,4 +20,5 @@ public interface MasterDao {
     public void insertBatch(@Param("list") List<Master> list);
 
     public List<Master> findAllMaster();
+
 }

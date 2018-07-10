@@ -36,4 +36,16 @@ public class PictureServiceImpl implements PictureService{
         picture.setPictureDate(new Date());
         pictureDao.insertPicture(picture);
     }
+
+    @Override
+    @Transactional(propagation= Propagation.SUPPORTS , readOnly=true)
+    public Picture queryPictureById(String pictureId) {
+        return pictureDao.findPictureById(pictureId);
+    }
+
+    @Override
+    public void modifyPicture(Picture picture) {
+        picture.setPictureDate(new Date());
+        pictureDao.updatePicture(picture);
+    }
 }

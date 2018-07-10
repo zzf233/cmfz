@@ -35,7 +35,7 @@
 		});
        /* window.onload=function(){
             var remeger = document.getElementById("managerName");//获取对象
-            var username = decodeURIComponent("${cookie.managerName.value}");//如果为空,使用解码后为空字符串
+            var username = decodeURIComponent("");//如果为空,使用解码后为空字符串
             if(!remeger.length==0){
                 remeger.value=username;
             }

@@ -2,10 +2,12 @@ package com.baizhi.cmfz.entity;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
 
+import java.io.Serializable;
+
 /**
  * Created by zzf_PC on 2018/7/8.
  */
-public class Master {
+public class Master implements Serializable{
     @Excel(name = "编号")
     private String masterId;
 

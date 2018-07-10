@@ -98,4 +98,9 @@ public class MasterController {
         workbook.write(out);
         out.close();
     }
+
+    @RequestMapping("/showAllMaster")
+    public @ResponseBody List<Master> showAllMaster(){
+        return masterService.queryAllMaster();
+    }
 }

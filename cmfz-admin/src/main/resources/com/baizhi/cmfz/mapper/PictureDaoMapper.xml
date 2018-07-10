@@ -18,4 +18,25 @@
     <insert id="insertPicture">
         insert into t_picture values(#{pictureId} , #{picturePath} , #{pictureDate} , #{pictureDescription} , #{pictureStatus})
     </insert>
+    <select id="findPictureById" resultMap="PictureResultMap">
+        select * from t_picture where picture_id = #{pictureId}
+    </select>
+    <update id="updatePicture">
+        update t_picture
+        <set >
+            <if test="picturePath != null" >
+                picture_path = #{picturePath,jdbcType=VARCHAR},
+            </if>
+            <if test="pictureDate != null" >
+                picture_date = #{pictureDate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="pictureDescription != null" >
+                picture_description = #{pictureDescription,jdbcType=VARCHAR},
+            </if>
+            <if test="pictureStatus != null" >
+                picture_status = #{pictureStatus,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where picture_id = #{pictureId,jdbcType=VARCHAR}
+    </update>
 </mapper>

@@ -60,6 +60,7 @@ public class ManagerController {
      */
     @RequestMapping("/login")
     public String login(String managerName , String managerPassword , String enCode , String rememberPassword , ModelMap model , HttpServletResponse response) throws Exception{
+        System.out.println(managerName);
         Cookie cookieName = new Cookie("managerName" , URLEncoder.encode(managerName , "utf-8"));
         cookieName.setPath("/");
         response.addCookie(cookieName);

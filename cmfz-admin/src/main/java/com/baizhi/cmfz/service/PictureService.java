@@ -10,4 +10,6 @@ import java.util.Map;
 public interface PictureService {
     public Map<String , Object> queryAllPictureByPage(Integer nowPage , Integer pageSize);
     public void addPicture(Picture picture);
+    public Picture queryPictureById(String pictureId);
+    public void modifyPicture(Picture picture);
 }

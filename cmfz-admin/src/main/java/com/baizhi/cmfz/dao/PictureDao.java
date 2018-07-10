@@ -14,5 +14,7 @@ public interface PictureDao {
 
     public void insertPicture(Picture picture);
 
-    //public void updatePicture(Picture picture);
+    public Picture findPictureById(@Param("pictureId") String pictureId);
+
+    public void updatePicture(Picture picture);
 }

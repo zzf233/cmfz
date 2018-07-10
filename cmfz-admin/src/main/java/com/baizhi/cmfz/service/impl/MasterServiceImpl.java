@@ -40,6 +40,7 @@ public class MasterServiceImpl implements MasterService {
     }
 
     @Override
+    @Transactional(propagation= Propagation.SUPPORTS , readOnly=true)
     public Map<String, Object> queryAllMasterByFuzzy(Integer nowPage, Integer pageSize, String condition, String value) {
         List<Master> masters = masterDao.findAllMasterByFuzzy((nowPage-1)*pageSize , pageSize , condition , value);
         int countFuzzy = masterDao.countFuzzy(condition , value);
@@ -55,6 +56,7 @@ public class MasterServiceImpl implements MasterService {
     }
 
     @Override
+    @Transactional(propagation= Propagation.SUPPORTS , readOnly=true)
     public List<Master> queryAllMaster() {
         return masterDao.findAllMaster();
     }
