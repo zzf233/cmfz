@@ -170,7 +170,7 @@ public class GetValidateCodeUtils {
 			}
 		}
 	}
-
+//222
 	public void write(OutputStream sos) throws IOException {
 		ImageIO.write(buffImg, "png", sos);
 		sos.close();
